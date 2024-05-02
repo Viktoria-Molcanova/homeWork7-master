@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         FamilyTree<Human> familyTree = new FamilyTree<>("TreeFamily.data");
-        Human mother = new Human("Анна", "Иванова", "Петровна", "жен", LocalDate.of(1975, 5, 15));
+        Human mother = new Human("Ольга", "Иванова", "Олеговна", "жен", LocalDate.of(1960, 5, 15));
         Human father = new Human("Иван", "Иванов", "Иванович", "муж", LocalDate.of(1970, 10, 20));
         Human child1 = new Human("Мария", "Иванова", "Ивановна", "жен", LocalDate.of(1995, 3, 25));
         Human child2 = new Human("Алексей", "Иванов", "Иванович", "муж", LocalDate.of(2000, 8, 10));
